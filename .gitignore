@@ -1,0 +1,13 @@
+node_modules/
+
+# HyperFrames per-project output and caches
+projects/*/renders/
+projects/*/.hyperframes/
+projects/*/snapshots/
+
+# Raw footage and exports stay out of git
+*.mp4
+*.mov
+*.mkv
+*.webm
+!.claude/skills/**

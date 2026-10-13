@@ -1,0 +1,30 @@
+{
+  "name": "video-editor",
+  "version": "1.0.0",
+  "description": "Video editing project managed with Claude Code.",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "new": "bash scripts/new-project.sh",
+    "doctor": "hyperframes doctor",
+    "sync-skills": "bash scripts/sync-hyperframes-skills.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdyousuf9755/video-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdyousuf9755/video-editor/issues"
+  },
+  "homepage": "https://github.com/mdyousuf9755/video-editor#readme",
+  "devDependencies": {
+    "gsap": "3.14.2",
+    "hyperframes": "0.8.153"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

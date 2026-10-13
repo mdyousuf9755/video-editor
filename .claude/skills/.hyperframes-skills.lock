@@ -1,0 +1,25 @@
+# Vendored by scripts/sync-hyperframes-skills.sh — do not edit by hand.
+source https://github.com/heygen-com/hyperframes
+tag v0.8.153
+commit 05786f555826a6ba59a97951c17c0e7b7317e1ce
+skill embedded-captions
+skill faceless-explainer
+skill figma
+skill general-video
+skill hyperframes-animation
+skill hyperframes-audio
+skill hyperframes-cli
+skill hyperframes-core
+skill hyperframes-creative
+skill hyperframes-keyframes
+skill hyperframes-registry
+skill hyperframes-studio
+skill hyperframes
+skill media-use
+skill motion-graphics
+skill music-to-video
+skill pr-to-video
+skill product-launch-video
+skill remotion-to-hyperframes
+skill slideshow
+skill talking-head-recut

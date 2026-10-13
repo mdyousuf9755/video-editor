@@ -1,0 +1,19 @@
+{
+  "env": {
+    "HYPERFRAMES_SKIP_SKILLS": "1",
+    "HYPERFRAMES_NO_TELEMETRY": "1",
+    "HYPERFRAMES_NO_UPDATE_CHECK": "1"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/session-start.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
